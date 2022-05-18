@@ -14,7 +14,7 @@ var connection = mysql.createConnection({
   password: "Jitloml-2019",
   database: "employees_db"
 });
-// beginning of terminal app start
+
 function start() {
   inquirer
     .prompt({
@@ -36,7 +36,7 @@ function start() {
           .then(function (answer) {
             console.log(answer);
 
-            // Adding department option
+           
             if (answer.option === "department") {
               inquirer
                 .prompt({
@@ -60,7 +60,7 @@ function start() {
                 });
             }
 
-            // adding role option
+            
             else if (answer.option === "role") {
               inquirer
                 .prompt([{

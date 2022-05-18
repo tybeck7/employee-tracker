@@ -20,7 +20,7 @@
   "homepage": "https://github.com/tybeck7/employee-tracker#readme",
   "dependencies": {
     "console.table": "^0.10.0",
-    "inquirer": "^8.2.1",
+    "inquirer": "^8.2.4",
     "mysql": "^2.18.1",
     "mysql2": "^2.3.3"
   }
